@@ -2,15 +2,9 @@
 
 Dataset repository for [pyGenomeViz](https://github.com/moshi4/pyGenomeViz) examples.
 
-User can download dataset by `load_dataset("resource_name")` function as follows.
-
-```python
-from pygenomeviz import load_dataset
-
-gbk_files, links = load_dataset("enterobacteria_phage")
-```
-
 ## Resources
+
+### Genbank Dataset
 
 - ***Escherichia phage*** (`escherichia_phage`)  
   Four *Escherichia phage* genome dataset (max_genome_size=72,179 bp).  
@@ -55,3 +49,11 @@ gbk_files, links = load_dataset("enterobacteria_phage")
   - NC_018409
   - NC_017502
   - NC_017503
+
+### GFF Files
+
+- **enterobacteria_phage.gff** (genome_size=60,942 bp)  
+  RefSeq assembly accession: [GCF_000844925.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_000844925.1/)  
+
+- **escherichia_coli.gff.gz** (genome_size=4,641,652 bp)  
+  RefSeq assembly accession: [GCF_000005845.2](https://www.ncbi.nlm.nih.gov/assembly/GCF_000005845.2)
